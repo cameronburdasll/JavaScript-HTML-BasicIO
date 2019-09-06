@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript WebApp</title>
+    </head>
+    <body>
+        <div class = "container">
+            <div class = 'Title'>
+                <h1>JavaScript WebApp</h1>
+            </div>
+            <br>
+            <div class = "box-1">
+                <link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
+                <h1>
+                Input:</h1>
+                <form id = 'form' action = '' >
+                    Number of Loops:
+                    <input type = 'number' name = 'loopnum' id = 'loops' value = '1'> 
+                    <br>
+                    Input: 
+                    <input type = 'number' name = 'input' id = 'in1' value = '753951'>
+                </form>
+                <br>
+                <button onclick = 'main()'>Run Script</button>
+                <br>
+                <p>Output:</p>
+                <p id = 'output'>-----Output will appear hear-----</p>
+                <script src = "app.js"></script>
+            </div>
+            <div class = 'box-2'>
+                <h1>Output:</h1>
+                <div id = 'outputWrapper'></div>
+            </div>
+        </div>
+    </body>
+</html>
