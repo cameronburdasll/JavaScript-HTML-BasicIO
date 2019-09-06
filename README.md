@@ -1,5 +1,5 @@
 # JavaScript-HTML-BasicIO
-Basic HTML page where with input boxes that are read by a JavaScript program.
+Basic template for an HTML page where with input boxes that are read by a JavaScript program.
 
 main() function reads in the two number boxes from the HTML page and sorts and prints the sequence of numbers input, then calls loopPrint()
 
