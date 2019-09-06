@@ -2,7 +2,7 @@ function loopPrint (numLoops)
 {
     var text = document.getElementById('outputWrapper');
     var output = '';
-    for (let i = 0; i < j; i ++)
+    for (let i = 0; i < numLoops; i ++)
         {
             console.log(i);
             output += '<span class="outputstream">Output loop #' + (i + 1) + '</span><br/><br/>';
